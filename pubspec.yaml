@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   plugin_platform_interface: ^2.0.2
+  web: ^1.1.1
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +28,11 @@ flutter:
         pluginClass: FlutterTapPaySdkPlugin
       ios:
         pluginClass: FlutterTapPaySdkPlugin
+      web:
+        pluginClass: FlutterTapPaySdkWeb
+        fileName: flutter_tappay_sdk_web.dart
+  
+  assets:
+    - assets/js/tappay_hosted_fields.js
+    - assets/css/tappay_hosted_fields.css
+
