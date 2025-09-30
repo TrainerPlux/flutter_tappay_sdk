@@ -46,9 +46,9 @@
 
         host.innerHTML = `
           <div class="tappay-container">
-            <div class="full"><div id="card-number" class="tpfield"></div></div>
-            <div><div id="card-expiration-date" class="tpfield"></div></div>
-            <div><div id="card-ccv" class="tpfield"></div></div>
+            <div class="full"><div class="label">信用卡號碼</div><div id="card-number" class="tpfield"></div></div>
+            <div class="full"><div class="label">到期日</div><div id="card-expiration-date" class="tpfield"></div></div>
+            <div class="full"><div class="label">CCV</div><div id="card-ccv" class="tpfield"></div></div>
           </div>
         `;
 
