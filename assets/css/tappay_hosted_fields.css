@@ -1,22 +1,43 @@
-.tpfield {
-    width: 100%;
-    height: 44px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px 12px;
-    box-sizing: border-box;
-    background: #fff;
+/* 基本設置與色票 */
+:root {
+  --tp-orange: #FF6A24;
+  --tp-text: #1A1A1A;
+  --tp-muted: #888;
+  --radius: 16px;
+  --gap: 16px;
 }
+
+/* 容器：2 欄、間距 16、左右留白 16 */
 .tappay-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+  box-sizing: border-box;
 }
+
+/* 先預設 full 佔滿一列 */
 .tappay-container .full {
-    grid-column: 1 / -1;
+  grid-column: 1 / -1;
 }
+
+/* 第 2、3 個欄位改成各 1 欄（到期日 / CVV） */
+.tappay-container .full:nth-child(2) { grid-column: 1 / 2; }
+.tappay-container .full:nth-child(3) { grid-column: 2 / 3; }
+
+/* 標籤：字高 24、上下間距 16→8（標籤與輸入框間留 8 比較順眼） */
 .label {
-    font: 500 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "PingFang TC";
-    margin: 8px 0 6px;
-    color: #333;
+  font: 500 16px/24px system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "PingFang TC";
+  color: var(--tp-text);
+}
+
+/* TapPay 欄位外框（iframe 容器） */
+.tpfield {
+  width: 100%;
+  height: 40px;                    /* 欄位高度 40 */
+  border: 1px solid var(--tp-orange);
+  border-radius: var(--radius);
+  padding: 8px 12px;               /* 40 高度下內距 8 垂直剛好 */
+  box-sizing: border-box;
+  background: #fff;
+  transition: border-color .15s ease, box-shadow .15s ease;
 }
