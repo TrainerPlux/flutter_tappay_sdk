@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/TPDAftee.h</key>
+		<data>
+		PZ7tlIaW/yIfBtVRKmKnhiEEwkI=
+		</data>
 		<key>Headers/TPDApplePay.h</key>
 		<data>
 		bCQ9XOV2seGEhh5bjKFLCtdEpso=
-		</data>
-		<key>Headers/TPDAtome.h</key>
-		<data>
-		bTe1fIyDpwRn6bK5DKqYsiHErCU=
-		</data>
-		<key>Headers/TPDAtomeResult.h</key>
-		<data>
-		JOo1VMCFvuJplIwMkr42pgTyGmg=
 		</data>
 		<key>Headers/TPDCard.h</key>
 		<data>
@@ -56,6 +52,14 @@
 		<data>
 		Xf5NjSXAk7pxRcby+h3zLtjbtl0=
 		</data>
+		<key>Headers/TPDIPassMoney.h</key>
+		<data>
+		x6S3iLDO40kQAzsTe15wnkVMaP8=
+		</data>
+		<key>Headers/TPDIPassMoneyResult.h</key>
+		<data>
+		J3RZEhrFhXf5O8VmC9YrpmmxH8c=
+		</data>
 		<key>Headers/TPDJKOPay.h</key>
 		<data>
 		G3ZhhsIsUr1XI7ZT+IqO9kG1SWE=
@@ -86,7 +90,7 @@
 		</data>
 		<key>Headers/TPDPaymentResultBase.h</key>
 		<data>
-		om5DBtHVXjxuAoTmK/6oauZLc5s=
+		CO4VHPf7K1qiuoEKvfZF6SpIa9A=
 		</data>
 		<key>Headers/TPDPiWallet.h</key>
 		<data>
@@ -99,6 +103,14 @@
 		<key>Headers/TPDPlusPay.h</key>
 		<data>
 		96mHZ3G27ZOCchEO3l58C5bXBP8=
+		</data>
+		<key>Headers/TPDPxPayPlus.h</key>
+		<data>
+		Y8x5k0LQC4MNGOEVXMoPy/X5PbI=
+		</data>
+		<key>Headers/TPDPxPayPlusResult.h</key>
+		<data>
+		BpBVn35QqbOwv6/Lh+M8VEvl7T4=
 		</data>
 		<key>Headers/TPDSetup.h</key>
 		<data>
@@ -114,19 +126,30 @@
 		</data>
 		<key>Headers/TPDirect.h</key>
 		<data>
-		TE50QmBhRT7T9sBqpaH481zFFos=
+		/6gteZcFnHiAWhOeEZ5/eUoiPtY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XJqPRY4e+Tfo9lo3U81R9OTnzwM=
+		rrAPCtV5/4CXAduJy3O32ekD1h4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		3/BXNQWu1696NDqObYEMZPvrvNk=
+		KG79GOinVqjz0kBA7mvSP942MEI=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/TPDAftee.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PZ7tlIaW/yIfBtVRKmKnhiEEwkI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2oUZ63VoZkiRZw2yPIxC4Q8qWkxvWjuoH38/ZfgTxh8=
+			</data>
+		</dict>
 		<key>Headers/TPDApplePay.h</key>
 		<dict>
 			<key>hash</key>
@@ -136,28 +159,6 @@
 			<key>hash2</key>
 			<data>
 			dwV3WwbVVgaefXGEULGmLFRCubJMz/osV3ueSkfLwAI=
-			</data>
-		</dict>
-		<key>Headers/TPDAtome.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bTe1fIyDpwRn6bK5DKqYsiHErCU=
-			</data>
-			<key>hash2</key>
-			<data>
-			D+r12lnomepTVUQVe0OMY+Z4LN3w2A4tqRqf4zLUuA8=
-			</data>
-		</dict>
-		<key>Headers/TPDAtomeResult.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JOo1VMCFvuJplIwMkr42pgTyGmg=
-			</data>
-			<key>hash2</key>
-			<data>
-			3xKWZWwUaiDwen5F2qRzXPncBV16N5KAHb6HKLAr5Gg=
 			</data>
 		</dict>
 		<key>Headers/TPDCard.h</key>
@@ -270,6 +271,28 @@
 			u+Tk0NW8VW04nRVqPrnoIwoDnIBxglMNUaYh2peT4ww=
 			</data>
 		</dict>
+		<key>Headers/TPDIPassMoney.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x6S3iLDO40kQAzsTe15wnkVMaP8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7vtBePhD4ewkVAAbFiHiTvtHnRfQLl1tJEJUCBCHRig=
+			</data>
+		</dict>
+		<key>Headers/TPDIPassMoneyResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J3RZEhrFhXf5O8VmC9YrpmmxH8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			bcAwPp84DdL++nrVhXUSaeIu+KdjZ2k6wtDa9/K8N6s=
+			</data>
+		</dict>
 		<key>Headers/TPDJKOPay.h</key>
 		<dict>
 			<key>hash</key>
@@ -351,11 +374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			om5DBtHVXjxuAoTmK/6oauZLc5s=
+			CO4VHPf7K1qiuoEKvfZF6SpIa9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			PukAVRe1KhZl1zmEwu+0JaL+Gb5F01OrDIC+30aNedE=
+			ycMTwgBnYAEP7Xrc1Kw4DqaJgc4lQAdauRdlY9A6TTI=
 			</data>
 		</dict>
 		<key>Headers/TPDPiWallet.h</key>
@@ -389,6 +412,28 @@
 			<key>hash2</key>
 			<data>
 			0EtXK176LXAXDFLz8LWeU5bQ5/0QrwM5oR60hIBfCA0=
+			</data>
+		</dict>
+		<key>Headers/TPDPxPayPlus.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y8x5k0LQC4MNGOEVXMoPy/X5PbI=
+			</data>
+			<key>hash2</key>
+			<data>
+			5pw6do9oDFXqRPQkJNLyW6ETTmPEkO0o1JDn8Saohvk=
+			</data>
+		</dict>
+		<key>Headers/TPDPxPayPlusResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BpBVn35QqbOwv6/Lh+M8VEvl7T4=
+			</data>
+			<key>hash2</key>
+			<data>
+			nOplaJIz3tFtyojtpgjljniKpv46Jo4Irv3vPMHgOd8=
 			</data>
 		</dict>
 		<key>Headers/TPDSetup.h</key>
@@ -428,22 +473,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TE50QmBhRT7T9sBqpaH481zFFos=
+			/6gteZcFnHiAWhOeEZ5/eUoiPtY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DYvVRzoHZCGvkzBjZfMXDLZu0OgnZbl8OSXNBU9sU2w=
+			Wv0vl+nRNt+3A2hs7FPBRaKacGk8y6AoJmFlvwaBFJA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/BXNQWu1696NDqObYEMZPvrvNk=
+			KG79GOinVqjz0kBA7mvSP942MEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDtpOD2IpvL1dgQhMDPKD6ckUtvnCDlBN8Hfl6Rllik=
+			MmPruHtdz0AJlJvF+Ok6Aryd5eUZka3J0JmSxzuCm+g=
 			</data>
 		</dict>
 	</dict>
